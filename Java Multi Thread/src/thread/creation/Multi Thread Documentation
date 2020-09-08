@@ -1,0 +1,22 @@
+public void run() 							Used to perform action for a thread.
+public void start() 						Starts the execution of the thread.JVM calls the run() method on the thread.
+public void sleep(long msec) 				Causes the currently executing thread to sleep (temporarily cease execution) for the specified number of msec.
+public void join() 							Waits for a thread to die.
+public void join(long msec): 				Waits for a thread to die for the specified msec.
+public int getPriority(): 					Returns the priority of the thread.
+public int setPriority(int priority): 		Changes the priority of the thread.
+public String getName(): 					Returns the name of the thread.
+public void setName(String name): 			Changes the name of the thread.
+public Thread currentThread(): 				Returns the reference of currently executing thread.
+public int getId(): 						Returns the id of the thread.
+public Thread.State getState(): 			Returns the state of the thread.
+public boolean isAlive(): 					Checks if the thread is alive.
+public void yield(): 						Causes the currently executing thread object to temporarily pause and allow other threads to execute.
+public void suspend(): 						Used to suspend the thread(depricated).
+public void resume(): 						Used to resume the suspended thread(depricated).
+public void stop(): 						Used to stop the thread(depricated).
+public boolean isDaemon(): 					Checks if the thread is a daemon thread.
+public void setDaemon(boolean b): 			Marks the thread as daemon or user thread.
+public void interrupt(): 					Interrupts the thread.
+public boolean isInterrupted(): 			Checks if the thread has been interrupted.
+public static boolean interrupted(): 		Checks if the current thread has been interrupted.
